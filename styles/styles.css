@@ -207,16 +207,16 @@ section {
   left: 0;
   top: 0;
   z-index: 1;
-  -webkit-clip-path: polygon(0 0, 73% 0, 73% 61%, 62% 81%, 36% 90%, 0 90%, 0% 80%, 0% 20%);
-          clip-path: polygon(0 0, 73% 0, 73% 61%, 62% 81%, 36% 90%, 0 90%, 0% 80%, 0% 20%);
+  -webkit-clip-path: polygon(0 0, 65% 0, 57% 100%, 0% 100%);
+          clip-path: polygon(0 0, 65% 0, 57% 100%, 0% 100%);
 }
 
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
   height: 100%;
   width: 80%;
-  margin-left: 1rem;
-  top: 2%;
+  margin-left: .5rem;
+  top: 1%;
   position: absolute;
   background-color: var(--color-black);
   -webkit-transition: var(--transition);
