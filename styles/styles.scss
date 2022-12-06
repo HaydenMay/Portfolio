@@ -153,9 +153,11 @@ section{
         }
         .image{
             border-radius: var(--br-sm-2);
-            height: 90%;
-            width: 68%;
-            margin-left: 4rem;
+            height: 100%;
+            width: 80%;
+            margin-left: 1rem;
+            top: 2%;
+            position: absolute;
             background-color: var(--color-black);
             transition: var(--transition);
             img{
@@ -185,6 +187,12 @@ section{
         p{
             margin: 1.5rem 0;
             line-height: 2rem;
+        }
+    }
+    a{
+        &:hover{
+            color: var(--color-white);
+            transition: var(--transition);
         }
     }
     
