@@ -254,7 +254,7 @@ section {
 
 .theme-btn {
   top: 5%;
-  right: 3%;
+  right: 3.25rem;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -289,7 +289,7 @@ section {
 
 .light-btn {
   top: 5%;
-  right: 8%;
+  right: 10rem;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -324,7 +324,7 @@ section {
 
 .dark-btn {
   top: 5%;
-  right: 8%;
+  right: 10rem;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -389,8 +389,8 @@ section {
   left: 0;
   top: 0;
   z-index: 1;
-  -webkit-clip-path: polygon(0 0, 65% 0, 57% 100%, 0% 100%);
-          clip-path: polygon(0 0, 65% 0, 57% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 70% 0, 57% 100%, 0% 100%);
+          clip-path: polygon(0 0, 70% 0, 57% 100%, 0% 100%);
 }
 
 .header-content .left-header .image {
